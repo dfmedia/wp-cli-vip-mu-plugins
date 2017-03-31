@@ -18,7 +18,7 @@ Currently the only option flag you can pass to it is `--remove-cron-control` thi
 
 Installing this package requires WP-CLI v1.1.0 or greater. Update to the latest stable release with `wp cli update`.
 
-Once you've done so, you can install this package with `wp package install dfmedia/wp-cli-vip-mu-plugins`.
+Once you've done so, you can install this package with `wp package install git@github.com:dfmedia/wp-cli-vip-mu-plugins.git`.
 
 ## Contributing
 
