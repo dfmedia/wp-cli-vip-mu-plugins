@@ -8,8 +8,11 @@ Command to update the VIP MU plugins directory
 Quick links: [Using](#using) | [Installing](#installing) | [Contributing](#contributing)
 
 ## Using
-
-
+All you need to do to run this command, is navigate to the WP install root and run the following:
+```bash
+wp plugin vip-mu-update
+```
+Currently the only option flag you can pass to it is `--remove-cron-control` this setting defaults to true, and will delete the `wp-cron-control` folder as well as the `001-cron.php` files if it isn't set to false.
 
 ## Installing
 
