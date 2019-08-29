@@ -44,7 +44,7 @@ class DFM_VIP_MU_Update extends WP_CLI_Command {
 
 		WP_CLI::success( 'Cloning the VIP MU Plugins git repo...' );
 
-		exec( 'git clone --recursive git@github.com:Automattic/vip-go-mu-plugins.git ' . WPMU_PLUGIN_DIR );
+		exec( 'git clone git@github.com:Automattic/vip-go-mu-plugins-built.git ' . WPMU_PLUGIN_DIR );
 
 		if ( true == $remove_cron_control ) {
 			WP_CLI::success( 'Removing cron control...' );
